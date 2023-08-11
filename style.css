@@ -1,0 +1,107 @@
+
+.grid-container{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px repeat(3,100px) repeat(4,200px);
+    gap: 1rem;
+}
+
+
+.heading{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Courgette', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Jost', sans-serif;
+    font-size: 2rem;
+    color: #479AED;
+    text-align: center;
+    margin: 0px;
+    text-decoration: underline;
+}
+
+.card img{
+    border-radius: 50%;
+    text-align: center;
+    background-color: #326DA8;
+}
+
+.btn:hover{
+    opacity: 0.5;
+}
+
+
+.web-name{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Courgette', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Jost', sans-serif;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    color: #25507A;
+    text-align: left;
+    padding-left: 10px;
+}
+
+h1{
+    margin: 0px;
+    font-size: 3rem;   
+}
+
+h2,h3{
+    margin: 0px;
+    font-size: 2rem;
+}
+
+.card{
+    grid-column: span 2;
+    margin: 0% 15%;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Courgette', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Jost', sans-serif;
+}
+
+.flex-about{
+    display: flex;
+    justify-content:space-around;
+}
+
+.hobbies{
+    flex: 1 1 200px;  
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.third{
+    padding: 0% 15%;
+}
+
+.btn{
+    border-radius: 8px;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Courgette', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Jost', sans-serif;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    background: #37495C;
+}
+
+.footer{
+    margin: 0px;
+    background-color: #25507A;
+    padding: 0px;
+}
+
+body{
+    margin: 0%;
+}
